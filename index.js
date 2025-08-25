@@ -22,7 +22,7 @@ const context = await browser.newContext({
 const gameDay = Array.from({ length: 23 }, (e, i) => i).slice(1)
 const players = [
     {
-        name: 'RUIZ BALBOA, ADRIAN',
+        name: 'RUIZ BALBOA, Adrian',
         min: 0,
         goals: 0,
         redCards: 0,
@@ -178,7 +178,7 @@ const players = [
         numFromScrub: 0,
     },
     {
-        name: 'SOW, ABDOULAYE',
+        name: 'ABDOULAYE, SOW',
         min: 0,
         goals: 0,
         redCards: 0,
@@ -204,7 +204,7 @@ const players = [
         numFromScrub: 0,
     },
     {
-        name: 'COSTEA COSTEA, CLAUDIU VALENTIN',
+        name: 'COSTEA, CLAUDIU VALENTIN',
         min: 0,
         goals: 0,
         redCards: 0,
@@ -373,7 +373,7 @@ const players = [
         numFromScrub: 0,
     },
     {
-        name: 'EL ALLAM, YAHYA',
+        name: 'EL ALLAM , YAHYA',
         min: 0,
         goals: 0,
         redCards: 0,
@@ -527,6 +527,9 @@ async function processGamePlay(day) {
 
 function printReport() {
     console.log('INFORME TEMPORADA 2024/25: CD RIO SIL');
+    // players num
+    console.log('Jugadores participantes:')
+    console.log(players.length)
     //order players by minutes
     const playersSortedByMinutes = players.sort((a, b) => b.min - a.min);
     console.log('Jugadores ordenados por minutos jugados:')
