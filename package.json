@@ -5,10 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "scripts": {
-      "build": "echo 'Static HTML - no build needed'",
-      "build:azure": "echo 'Static HTML - no build needed'"
-    },
+    "build": "echo 'Static HTML - no build needed'",
+    "build:azure": "echo 'Static HTML - no build needed'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
